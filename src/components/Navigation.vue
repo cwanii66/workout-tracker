@@ -9,6 +9,7 @@
         <router-link class="cursor-pointer" :to="{ name: 'Home' }">Home</router-link>
         <router-link class="cursor-pointer" :to="{ name: 'Create' }">Create</router-link>
         <router-link class="cursor-pointer" :to="{ name: 'Login' }">Login</router-link>
+
         <li v-if="user" @click="logout" class="cursor-pointer">Logout</li>
       </ul>
     </nav>
